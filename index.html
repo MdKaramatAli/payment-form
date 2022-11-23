@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="cont">
+   <body>
+    <h1 class="hed">Payments Forms</h1>  
+    <hr> 
+
+    <p class="user">
+        User Information 
+    </p>
+    <p>Name :*  <input type="text" name="name" id="name" placeholder="name of the candidate"> </p>
+    <p>
+        <fieldset>
+        <legend>Gender</legend>
+        Male <input type="radio" name="gender" id="male" >
+       Female <input type="radio" name="gender" id="Female">
+    </p></fieldset>
+    
+    <p>
+        Address:<textarea placeholder="Enter your Address" name="Address" id="Address" cols="3" rows="7"></textarea>
+    </p>
+    <p>
+        Email: <input type="email" name="email" id="mail" placeholder="abc@gmail.com">
+    </p>
+    <p>
+        Pincode: <input type="number" name="number" id="num" placeholder="1234567">
+    </p>
+    <hr>
+    <h1 class="pay"> Payments Information</h1>
+    <p>
+        cardtype : 
+        <select name="cardtype" id="cardtype">
+            <option value="">select your card</option>
+            <option value="Visa"> VISA</option>
+            <option value=" Rupay"> RUPAY</option>
+            <option value=" master"> MasterCard</option>
+        </select>
+    </p>
+    <p>
+        card number* : <input type="number " name="cardtype  " id="cardtype" placeholder="1234-4567-9874-1235" minlength="12" maxlength="12">
+    </p>
+    <p>
+        Expiration Date* : <input type="date" name="Expiration" id="Expiration"> 
+    </p>
+    <p>
+        CVV* : <input type="password" name="CVV" id="cvv"  placeholder="123" >
+    </p>
+    <p>
+        <input type="submit" name="submit" id="submit">
+    </p>
+</div>
+
+</body>
+</html>
